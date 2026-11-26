@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn more about TrebSnkrs and our sneaker resale concept.">
+
+  <title>About | TrebSnkrs</title>
+
+  <link rel="icon" type="image/png" href="TS LOGO2.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-container">
+
+      <a href="index.html" class="logo">
+        <img src="TS LOGO2.png" alt="TrebSnkrs Logo">
+        <span>TREB<span class="accent">SNKRS</span></span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="shop.html" class="nav-link">Shop</a>
+        <a href="about.html" class="nav-link active">About</a>
+      </nav>
+
+      <div class="header-actions">
+
+        <button class="icon-button" id="searchButton" aria-label="Search">
+          ⌕
+        </button>
+
+        <button class="icon-button" id="wishlistButton" aria-label="Wishlist">
+          ♡
+          <span class="count-badge" id="wishlistCount">0</span>
+        </button>
+
+        <button class="icon-button" id="cartButton" aria-label="Shopping cart">
+          🛒
+          <span class="count-badge" id="cartCount">0</span>
+        </button>
+
+        <button class="menu-button" id="menuButton" aria-label="Open menu">
+          ☰
+        </button>
+
+      </div>
+    </div>
+  </header>
+
+
+  <!-- SEARCH OVERLAY -->
+  <div class="search-overlay" id="searchOverlay">
+    <div class="search-container">
+
+      <button class="close-button" id="closeSearch">×</button>
+
+      <h2>FIND YOUR PAIR</h2>
+
+      <div class="search-input-container">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search sneakers..."
+          autocomplete="off"
+        >
+
+        <button id="searchSubmit">SEARCH</button>
+      </div>
+
+      <p class="search-hint">Press ENTER to search or ESC to close.</p>
+
+    </div>
+  </div>
+
+
+  <!-- ABOUT PAGE -->
+  <main>
+
+    <!-- ABOUT HERO -->
+    <section class="about-hero">
+
+      <div class="about-hero-content">
+
+        <p class="section-label">GET TO KNOW US</p>
+
+        <h1>
+          ABOUT <span class="accent">TREBSNKRS</span>
+        </h1>
+
+        <p class="about-hero-subtitle">
+          Not just sneakers. It's your next move.
+        </p>
+
+        <p class="about-hero-description">
+          TrebSnkrs is a sneaker resale website concept created for
+          people who appreciate footwear, personal style, and sneaker
+          culture. Our goal is to make exploring and selecting sneakers
+          more convenient through a simple online shopping experience.
+        </p>
+
+        <a href="shop.html" class="btn btn-primary">
+          EXPLORE OUR COLLECTION
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!-- OUR STORY -->
+    <section class="about-story section-padding">
+
+      <div class="about-story-grid">
+
+        <div class="about-story-text">
+
+          <p class="section-label">OUR STORY</p>
+
+          <h2>
+            MORE THAN JUST <span class="accent">FOOTWEAR.</span>
+          </h2>
+
+          <p>
+            Sneakers have become more than everyday footwear.
+            They represent interests, creativity, individuality,
+            and the communities built around different styles
+            and releases.
+          </p>
+
+          <p>
+            TrebSnkrs was developed around this idea. It brings
+            different sneaker categories together in one website,
+            allowing visitors to browse products, compare details,
+            save favorites, and prepare an order request.
+          </p>
+
+        </div>
+
+        <div class="about-story-image">
+          <img src="Display.png" alt="TrebSnkrs sneaker collection display">
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- OUR PURPOSE -->
+    <section class="about-purpose section-padding">
+
+      <div class="section-heading centered">
+
+        <div>
+          <p class="section-label">WHAT WE AIM TO PROVIDE</p>
+
+          <h2>
+            THE TREBSNKRS <span class="accent">EXPERIENCE</span>
+          </h2>
+        </div>
+
+      </div>
+
+
+      <div class="about-values-grid">
+
+        <div class="about-value-card">
+
+          <span class="about-number">01</span>
+
+          <h3>VARIETY</h3>
+
+          <p>
+            Browse different sneaker categories, including lifestyle,
+            basketball, running, and limited releases.
+          </p>
+
+        </div>
+
+
+        <div class="about-value-card">
+
+          <span class="about-number">02</span>
+
+          <h3>CONVENIENCE</h3>
+
+          <p>
+            Explore product details, select available sizes,
+            manage a wishlist, and organize items in your cart.
+          </p>
+
+        </div>
+
+
+        <div class="about-value-card">
+
+          <span class="about-number">03</span>
+
+          <h3>STYLE</h3>
+
+          <p>
+            Discover different designs and find pairs that reflect
+            your preferences and personal style.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- HOW IT WORKS -->
+    <section class="about-process section-padding">
+
+      <div class="section-heading centered">
+
+        <div>
+          <p class="section-label">A SIMPLE SHOPPING PROCESS</p>
+
+          <h2>
+            HOW IT <span class="accent">WORKS</span>
+          </h2>
+        </div>
+
+      </div>
+
+
+      <div class="process-grid">
+
+        <div class="process-card">
+
+          <span class="process-number">01</span>
+
+          <h3>BROWSE</h3>
+
+          <p>
+            Explore the available sneakers and view their product details.
+          </p>
+
+        </div>
+
+
+        <div class="process-card">
+
+          <span class="process-number">02</span>
+
+          <h3>SELECT</h3>
+
+          <p>
+            Choose your preferred size and add the sneaker to your cart
+            or wishlist.
+          </p>
+
+        </div>
+
+
+        <div class="process-card">
+
+          <span class="process-number">03</span>
+
+          <h3>CHECK OUT</h3>
+
+          <p>
+            Provide your contact and delivery information to prepare
+            your order request.
+          </p>
+
+        </div>
+
+
+        <div class="process-card">
+
+          <span class="process-number">04</span>
+
+          <h3>CONFIRM</h3>
+
+          <p>
+            Coordinate with the seller to confirm product availability,
+            payment, and delivery arrangements.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- FINAL CTA -->
+    <section class="about-cta">
+
+      <div class="about-cta-content">
+
+        <p class="section-label">YOUR NEXT PAIR STARTS HERE</p>
+
+        <h2>
+          READY TO MAKE <span class="accent">YOUR MOVE?</span>
+        </h2>
+
+        <p>
+          Explore the collection and discover your next favorite pair.
+        </p>
+
+        <a href="shop.html" class="btn btn-primary">
+          SHOP NOW
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+
+    <div class="footer-container">
+
+      <div class="footer-brand">
+
+        <a href="index.html" class="logo">
+          <img src="TS LOGO2.png" alt="TrebSnkrs Logo">
+          <span>TREB<span class="accent">SNKRS</span></span>
+        </a>
+
+        <p>Swap pairs. Make moves.</p>
+
+      </div>
+
+
+      <div class="footer-links">
+
+        <h3>EXPLORE</h3>
+
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">About</a>
+
+      </div>
+
+
+      <div class="footer-links">
+
+        <h3>CONNECT</h3>
+
+        <a href="https://www.facebook.com/gff.frs" target="_blank" rel="noopener noreferrer">
+          Facebook
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+      <p>© 2026 TrebSnkrs. All rights reserved.</p>
+
+      <p>Swap pairs. Make moves.</p>
+
+    </div>
+
+  </footer>
+
+
+  <!-- DRAWER OVERLAY -->
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+
+
+  <!-- WISHLIST DRAWER -->
+  <aside class="side-drawer" id="wishlistDrawer">
+
+    <div class="drawer-header">
+
+      <h2>YOUR WISHLIST</h2>
+
+      <button class="close-button" id="closeWishlist">×</button>
+
+    </div>
+
+    <div class="drawer-content" id="wishlistItems">
+      <!-- Wishlist items are generated by script.js -->
+    </div>
+
+  </aside>
+
+
+  <!-- CART DRAWER -->
+  <aside class="side-drawer" id="cartDrawer">
+
+    <div class="drawer-header">
+
+      <h2>YOUR CART</h2>
+
+      <button class="close-button" id="closeCart">×</button>
+
+    </div>
+
+    <div class="drawer-content" id="cartItems">
+      <!-- Cart items are generated by script.js -->
+    </div>
+
+    <div class="drawer-footer">
+
+      <div class="cart-total">
+        <span>TOTAL</span>
+        <strong id="cartTotal">₱0</strong>
+      </div>
+
+      <button class="btn btn-primary full-width" id="checkoutButton">
+        PROCEED TO CHECKOUT
+      </button>
+
+    </div>
+
+  </aside>
+
+
+  <!-- PRODUCT MODAL -->
+  <div class="modal-overlay" id="productModal">
+
+    <div class="modal-content product-modal-content">
+
+      <button class="close-button modal-close" id="closeProductModal">×</button>
+
+      <div id="productModalContent">
+        <!-- Product details are generated by script.js -->
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- CHECKOUT MODAL -->
+  <div class="modal-overlay" id="checkoutModal">
+
+    <div class="modal-content checkout-modal-content">
+
+      <button class="close-button modal-close" id="closeCheckout">×</button>
+
+      <div class="checkout-heading">
+
+        <p class="section-label">ALMOST YOURS</p>
+
+        <h2>CHECK<span class="accent">OUT</span></h2>
+
+        <p>Provide your information to prepare your order request.</p>
+
+      </div>
+
+
+      <form id="checkoutForm">
+
+        <div class="form-group">
+
+          <label for="customerName">Full Name</label>
+
+          <input
+            type="text"
+            id="customerName"
+            name="customerName"
+            placeholder="Enter your full name"
+            required
+          >
+
+        </div>
+
+
+        <div class="form-row">
+
+          <div class="form-group">
+
+            <label for="customerEmail">Email Address</label>
+
+            <input
+              type="email"
+              id="customerEmail"
+              name="customerEmail"
+              placeholder="example@email.com"
+              required
+            >
+
+          </div>
+
+
+          <div class="form-group">
+
+            <label for="customerPhone">Phone Number</label>
+
+            <input
+              type="tel"
+              id="customerPhone"
+              name="customerPhone"
+              placeholder="09XXXXXXXXX"
+              required
+            >
+
+          </div>
+
+        </div>
+
+
+        <div class="form-group">
+
+          <label for="customerAddress">Delivery Address</label>
+
+          <textarea
+            id="customerAddress"
+            name="customerAddress"
+            placeholder="Enter your complete address"
+            rows="3"
+            required
+          ></textarea>
+
+        </div>
+
+
+        <div class="form-group">
+
+          <label for="paymentMethod">Preferred Payment Method</label>
+
+          <select id="paymentMethod" name="paymentMethod" required>
+
+            <option value="">Select payment method</option>
+            <option value="Cash on Delivery">Cash on Delivery</option>
+            <option value="GCash">GCash</option>
+            <option value="Bank Transfer">Bank Transfer</option>
+
+          </select>
+
+        </div>
+
+
+        <div class="form-group">
+
+          <label for="orderNotes">Additional Notes (Optional)</label>
+
+          <textarea
+            id="orderNotes"
+            name="orderNotes"
+            placeholder="Add any additional instructions..."
+            rows="2"
+          ></textarea>
+
+        </div>
+
+
+        <div class="checkout-summary">
+
+          <h3>ORDER SUMMARY</h3>
+
+          <div id="checkoutItems">
+            <!-- Checkout items are generated by script.js -->
+          </div>
+
+          <div class="checkout-total">
+
+            <span>Total Amount</span>
+
+            <strong id="checkoutTotal">₱0</strong>
+
+          </div>
+
+        </div>
+
+
+        <button type="submit" class="btn btn-primary full-width">
+          FINISH ORDER REQUEST
+        </button>
+
+
+        <p class="checkout-note">
+          This website prepares an order request. Payment and order
+          confirmation must be arranged with the seller.
+        </p>
+
+      </form>
+
+    </div>
+
+  </div>
+
+
+  <!-- TOAST NOTIFICATION -->
+  <div class="toast" id="toast">
+    <span id="toastMessage">Notification</span>
+  </div>
+
+
+  <!-- JAVASCRIPT -->
+  <script src="script.js"></script>
+
+</body>
+</html>
